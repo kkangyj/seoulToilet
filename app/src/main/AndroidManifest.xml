@@ -14,15 +14,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!--        구글 클라우드 플랫폼에서 발급받은 API 키-->
+        <!--구글 클라우드 플랫폼에서 발급받은 API 키-->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC2FQ_YzZo4e23SistiuifyCDAWlLsnpQE" />
-        <!--        구글 플레이 서비스 버전-->
+        <!--구글 플레이 서비스 버전-->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <!--    안드로이드 파이 버전부터는 적어줘야 하는 코드   -->
+        <!--안드로이드 파이 버전부터는 적어줘야 하는 코드-->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
